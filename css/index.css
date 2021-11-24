@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/taustakuva.jpg");
+}
+
+input {
+    background-color: antiquewhite;
+    opacity: 50%;
+}
+
+#nimi {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    border: solid 2px black ;
+    box-shadow: initial 5px black;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+
+#nappula {
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    border: solid 2px black 90%;
+    text-decoration: none;
+    text-align: center ;
+    display: inline-block;
+}
+
+div {
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#tervetuloa {
+    grid-column: 2/3;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}

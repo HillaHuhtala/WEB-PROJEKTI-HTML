@@ -1,0 +1,76 @@
+html {
+    background-image: url("../images/taustakuva.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 15px;
+}
+
+header {
+    grid-row: 1/2 ;
+    grid-column: 1/6;
+}
+
+header img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 60px;
+}
+
+article {
+    grid-row: 3/4;
+    grid-column: 1/6;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navImg {
+    grid-column: 1/2;
+    background-image: url("../images/english.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navImg2{
+    grid-column: 2/3;
+    max-width: 20%;
+    align-self: center;
+}
+
+#visa3 {
+    grid-column: 3/4;
+    max-width: 20%;
+    align-self: center;
+}
+
+#hilla {
+    grid-column: 4/5;
+    max-width: 20%;
+    align-self: center;
+}
+
+footer {
+    grid-column: 1/6 ;
+    grid-row: 4/5;
+    background-color:  rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+}
