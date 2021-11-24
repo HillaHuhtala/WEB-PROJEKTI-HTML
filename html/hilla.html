@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/hilla.css">
-    <title>Eläinvisa - Hilla Huhtala</title>
-</head>
-<body>
-    <header></header>
-    <nav></nav>
-    <article></article>
-    <footer></footer>
-    <script src="../js/hilla.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" content="height=device-height, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/etusivu.css">
+        <title>Eläinvisa - Hilla Huhtala</title>
+        <link rel="icon" type="image/x-icon" href="../images/icon.png">
+    </head>
+    <body onload="printName()">
+        <input type="hidden" id="nimitieto">
+        <div class="container">
+            <header>
+                <a href="../index.html"><img src="../images/Banneriesimerkki.png"></a>
+            </header>
+            <div class="nav">
+                <a href="../html/visa1.html">Visa1</a>
+                <a href="../html/visa2.html">Visa2</a>
+                <a href="../html/visa3.html">Visa3</a>
+                <a href="../html/hilla.html">Visa4</a>
+            </div>
+            <article>
+                <h1>Moikka <span id="tulostanimi"></span>!</h1>
+                <p>Tältä sivulta löydät lajitunnistusvisan. Kysymyksiä on yhteensä <span id="kysymysmaara"></span> ja näät edistymisesi
+                visan yläpuolella näkyvästä kaaviosta.</p>
+                <div class="quizcontainer">
+                    <p>Tähän edistymiskaavio</p>
+                    <p>Tähän visa</p>
+            </article>
+            <footer>
+                <p>Tekijät: Hilla, Saku, Veeti, Jussi</p>
+            </footer>
+        </div>
+    </body>
+    <script src="../js/etusivu.js"></script>
 </html>
